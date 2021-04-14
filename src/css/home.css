@@ -1,0 +1,19 @@
+.bj{background:url('../assets/home/1.jpg') no-repeat center 3px fixed #e36445;margin-top:45px;}
+.warpperbd{padding:20px 100px;}
+.warpper{width:1180px;overflow:hidden;padding:10px;background-color:#fff;border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;}
+.topLogo{border-bottom:3px solid #ff3333;padding:0 0 10px;}
+.topLogo h1{background:url('../assets/home/logo.jpg') no-repeat center center/135px 42px;width:135px;height:42px;text-indent:-9999px;}
+.topLogo img{float:right;height:42px;width:auto;left:10px;}
+
+
+.w915{width:915px;}
+.w250{width:250px;}
+.w915{width:915px;}
+.w450{width:450px;}
+
+.el-carousel__button{background-color:#ccc;opacity:1;}
+.el-carousel__indicator.is-active button{background-color:#ff3333;}
+
+
+
+

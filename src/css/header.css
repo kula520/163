@@ -1,0 +1,40 @@
+a:link,a:visited{text-decoration:none;color:#fff;font-size:12px;}
+a:hover,a:active{text-decoration:underline;}
+.headerbd{z-index:9999;color:#fff;height:45px;background-color:#333;position:fixed;top:0;left:0;width:100%;}
+.header{padding:0 40px;}
+.header .leftNav li{float:left;position:relative;margin:0 10px;line-height:45px;font-size:12px;}
+.header .leftNav li a:link,.header ul li a:visited{text-decoration:none;color:#fff;font-size:12px;}
+.header .leftNav li a:hover,.header ul li a:active{text-decoration:underline;}
+.header .leftNav li .moreYy{cursor:pointer;display:inline-block;height:45px;line-height:41px;padding:0 10px;}
+.header .leftNav li .moreYy.font20{font-size:20px;line-height:45px;}
+.header .leftNav li .moreYy em{font-size:18px;}
+.header .leftNav li .moreYy.cur{background-color:#000;}
+.header .leftNav li .moreYy.cur1{background-color:#ff0000;}
+.header .leftNav li .moreDown{z-index:99;position:absolute;top:42px;padding-top:12px;}
+.header .leftNav li .moreDown.left{left:0;}
+.header .leftNav li .moreDown.right{right:0;}
+.header .leftNav li .moreDown dl{width:130px;color:#333;box-shadow:0 0 6px 2px #fff;border:1px solid #ddd;background-color:#fff;}
+.header .leftNav li .moreDown dl dt{padding:0 10px; min-height:36px;line-height:36px;font-size:14px;color:#333;border-bottom:1px solid #ddd;}
+.header .leftNav li .moreDown dl dt a:link,.header .leftNav li .moreDown dl dt a:visited{text-decoration:none;color:#333;font-size:12px;}
+.header .leftNav li .moreDown dl dt a:hover,.header .leftNav li .moreDown dl dt a:active{text-decoration:underline;}
+.header .leftNav li .moreDown dl dt img{width:100%;height:auto;}
+.header .leftNav li .moreDown dl dt.last{border:0;}
+.header .leftNav li .moreDown dl dt .inpt{height:20px;margin:10px 0;}
+.header .leftNav li .moreDown dl dt .button{margin:10px 0;}
+.header .leftNav li .font24{font-size:24px;display:block;padding:0 10px;cursor:pointer;}
+.mapNavbd{position:fixed;top:45px;left:0;width:100%;background-color:#fff;z-index:999;}
+.mapNavbd .mapNav{padding:10px;}
+.mapNavbd ul{width:9%;float:left;border-right:1px solid #f2f2f2;}
+.mapNavbd ul.last{border:0;}
+.mapNavbd ul li{height:30px;line-height:30px;}
+.mapNavbd ul li h4{font-size:18px;padding:0 10px;}
+.mapNavbd ul li span{padding:0 10px;}
+.mapNavbd .mapMore{text-align:right;padding:0 30px;line-height:30px;}
+
+
+
+
+
+
+
+

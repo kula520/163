@@ -1,0 +1,29 @@
+.warpper{width:1180px;margin:50px auto 0}
+.header{text-align:center;margin-bottom:20px;}
+.header a{padding:0 10px;height:30px;line-height:30px;}
+.evaluateBd{margin:10px 0;}
+.evaluateTil{font-weight:bold;height:30px;color:#555;line-height:30px;padding:0 10px;border-top:1px solid #ddd;background-color:#f2f2f2;}
+.hotPaiseBd{padding:20px 15px;position:relative;height:100px;}
+.hotPaiseBd .hotNum{width:100px;height:100px;position:absolute;top:20px;left:15px;z-index:99;}
+.hotPaiseBd .hotNum span{display:block;height:18px;line-height:18px;color:#888;}
+.hotPaiseBd .hotNum strong{display:block;font-size:50px;color:#ff3333;margin-top:14px;}
+.hotPaiseBd .hotNum strong em{font-size:20px;}
+.hotPaiseBd .key{margin-left:130px;}
+.hotPaiseBd .key li{margin:0 8px 8px 0;height:22px;line-height:22px;padding:0 15px;display:inline-block;color:#555;border:1px solid #ccc;}
+.evaluatTab{height:30px;line-height:30px;background-color:#f0f0f0;border:1px solid #ddd;padding:0 10px;}
+.evaluatTab a{cursor:pointer;padding-right:15px;}
+.evaluatTab a:hover,.evaluatTab a.cur{color:#ff3333;}
+.evaluatList .list{padding:10px;border-bottom:1px solid #ccc;position:relative;min-height:100px;}
+.evaluatList .list .userInfo{position:absolute;top:10px;left:10px;width:140px;height:100px;}
+.evaluatList .list .userInfo img{width:30px;height:30px;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;float:left;margin-right:8px;}
+.evaluatList .list .userInfo h4{color:#888;font-size:12px;line-height:30px;height:30px;overflow:hidden;}
+.evaluatList .list .userInfo .plus{text-align:center;width:60px;height:20px;line-height:20px;background-color:#000;color:#fff38f;margin-top:5px;}
+.evaluatList .list .userMain{padding-left:150px;}
+.evaluatList .list .xing{height:20px;line-height:20px;font-size:12px;color:#ff3333;}
+.evaluatList .list .imgSmal{height:50px;margin-bottom:10px;overflow:hidden;}
+.evaluatList .list .imgSmal li{width:44px;height:44px;padding:2px;border:1px solid #ddd;float:left;margin-right:5px;overflow:hidden;cursor:pointer;}
+.evaluatList .list .imgSmal li.cur{border:1px solid #ff3333;}
+.evaluatList .list .imgSmal li img{width:44px;height:44px;}
+.evaluatList .list .imgBig{margin-bottom:10px;width:300px;height:500px;padding:5px;border:1px solid #ccc;overflow:hidden;display:none;}
+.evaluatList .list .imgBig img{width:100%;height:100%}
+.evaluatList .list .info{color:#888;}
