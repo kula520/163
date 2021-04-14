@@ -27,6 +27,10 @@ const Allcheck = () => import("../view/allcheck/allcheck.vue");
 const Hoverpic = () => import("../view/hoverpic/hoverpic.vue");
 //表单验证
 const Verification = () => import("../view/verification/verification.vue");
+//倒计时1
+const Timeone = () => import("../view/time/timeone.vue");
+//倒计时2
+const Timetwo = () => import("../view/time/timetwo.vue");
 Vue.use(Router)
 
 export default new Router({
@@ -100,6 +104,16 @@ export default new Router({
       path: '/verification',
       name: 'verification',
       component: Verification
+    },
+    {
+      path: '/timeone',
+      name: 'timeone',
+      component: Timeone
+    },
+    {
+      path: '/timetwo',
+      name: 'timetwo',
+      component: Timetwo
     }
   ]
 })

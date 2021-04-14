@@ -22,13 +22,12 @@
             <li>
               <h4><router-link :to="{name:'hoverpic'}">滑动效果</router-link></h4>
               <span><router-link :to="{name:'verification'}">表单</router-link></span>
-              <span><a href="#">基金</a></span>
-              <span><a href="#">商业</a></span>
+              <span><router-link :to="{name:'timeone'}">倒计时</router-link></span>
             </li>
           </ul>
           <ul>
             <li>
-              <h4><a href="#">科技</a></h4>
+              <h4><router-link :to="{name:'timetwo'}">倒计时2</router-link></h4>
               <span><a href="#">手机</a></span>
               <span><a href="#">智能</a></span>
               <span><a href="#">科学</a></span>
