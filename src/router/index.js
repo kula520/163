@@ -31,12 +31,18 @@ const Verification = () => import("../view/verification/verification.vue");
 const Timeone = () => import("../view/time/timeone.vue");
 //倒计时2
 const Timetwo = () => import("../view/time/timetwo.vue");
+//倒计时3
+const Timethr = () => import("../view/time/timethr.vue");
 //下拉菜单
 const Downselect = () => import("../view/downselect/downselect.vue");
 //上传图片1
 const Uploadimgone = () => import("../view/uploadimgone/uploadimg.vue");
 //城市添加
 const Adresscity = () => import("../view/adresscity/adresscity.vue");
+//搜索
+const Seach = () => import("../view/seach/seach.vue");
+//搜索2
+const Seachjd = () => import("../view/seach/seachjd.vue");
 Vue.use(Router)
 
 export default new Router({
@@ -135,6 +141,21 @@ export default new Router({
       path: '/adresscity',
       name: 'adresscity',
       component: Adresscity
+    },
+    {
+      path: '/timethr',
+      name: 'timethr',
+      component: Timethr
+    },
+    {
+      path: '/seach',
+      name: 'seach',
+      component: Seach
+    },
+    {
+      path: '/seachjd',
+      name: 'seachjd',
+      component: Seachjd
     }
   ]
 })

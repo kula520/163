@@ -28,19 +28,18 @@
           <ul>
             <li>
               <h4><router-link :to="{name:'timetwo'}">倒计时2</router-link></h4>
-              <span><router-link :to="{name:'downselect'}">下拉</router-link></span>
-              <span><router-link :to="{name:'uploadimgone'}">上传图片</router-link></span>
+              <span><router-link :to="{name:'timethr'}">倒计时3</router-link></span>
+              <span><router-link :to="{name:'uploadimgone'}">上传</router-link></span>
             </li>
             <li>
               <h4><router-link :to="{name:'adresscity'}">城市选择</router-link></h4>
-              <span><a href="#">女人</a></span>
-              <span><a href="#">教育</a></span>
-              <span><a href="#">亲子</a></span>
+              <span><router-link :to="{name:'downselect'}">下拉</router-link></span>
+              <span><router-link :to="{name:'seach'}">搜索</router-link></span>
             </li>
           </ul>
           <ul class="w150">
             <li>
-              <h4><a href="#">直播</a></h4>
+              <h4><router-link :to="{name:'seachjd'}">京东搜索</router-link></h4>
               <span><a href="#">PGC</a></span>
               <span><a href="#">公开课</a></span>
             </li>
