@@ -31,6 +31,12 @@ const Verification = () => import("../view/verification/verification.vue");
 const Timeone = () => import("../view/time/timeone.vue");
 //倒计时2
 const Timetwo = () => import("../view/time/timetwo.vue");
+//下拉菜单
+const Downselect = () => import("../view/downselect/downselect.vue");
+//上传图片1
+const Uploadimgone = () => import("../view/uploadimgone/uploadimg.vue");
+//城市添加
+const Adresscity = () => import("../view/adresscity/adresscity.vue");
 Vue.use(Router)
 
 export default new Router({
@@ -114,6 +120,21 @@ export default new Router({
       path: '/timetwo',
       name: 'timetwo',
       component: Timetwo
+    },
+    {
+      path: '/downselect',
+      name: 'downselect',
+      component: Downselect
+    },
+    {
+      path: '/uploadimgone',
+      name: 'uploadimgone',
+      component: Uploadimgone
+    },
+    {
+      path: '/adresscity',
+      name: 'adresscity',
+      component: Adresscity
     }
   ]
 })

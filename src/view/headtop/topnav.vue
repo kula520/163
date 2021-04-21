@@ -28,12 +28,11 @@
           <ul>
             <li>
               <h4><router-link :to="{name:'timetwo'}">倒计时2</router-link></h4>
-              <span><a href="#">手机</a></span>
-              <span><a href="#">智能</a></span>
-              <span><a href="#">科学</a></span>
+              <span><router-link :to="{name:'downselect'}">下拉</router-link></span>
+              <span><router-link :to="{name:'uploadimgone'}">上传图片</router-link></span>
             </li>
             <li>
-              <h4><a href="#">时尚</a></h4>
+              <h4><router-link :to="{name:'adresscity'}">城市选择</router-link></h4>
               <span><a href="#">女人</a></span>
               <span><a href="#">教育</a></span>
               <span><a href="#">亲子</a></span>
